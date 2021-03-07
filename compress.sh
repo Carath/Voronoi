@@ -7,11 +7,6 @@
 # Extracting is done by running the command below, replacing 'filename' by the project name:
 # tar -xf filename.tgz
 
-
-# Safer to get this at the beginning, since we may move between directories.
-PROJECT_PATH=$PWD
-
-
 clean()
 {
 	echo '\n'//////////////////////////////////////////////////
@@ -19,6 +14,9 @@ clean()
 	echo //////////////////////////////////////////////////'\n'
 	make clean
 }
+
+# Get the current path before running other commands:
+PROJECT_PATH=$PWD
 
 # Cleaning the .o files and executables:
 clean
