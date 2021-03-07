@@ -32,7 +32,7 @@ void animation(void)
 	////////////////////////////////////////////////////////////
 	// Initializing SDLA - rendering:
 
-	SDLA_Init(&window, &renderer, "Petri", WINDOW_WIDTH, WINDOW_HEIGHT,
+	SDLA_Init(&window, &renderer, "Voronoi", WINDOW_WIDTH, WINDOW_HEIGHT,
 		USE_HARDWARE_ACCELERATION, SDLA_BLENDED);
 
 	////////////////////////////////////////////////////////////
